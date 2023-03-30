@@ -1,0 +1,373 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16LF18323 ]
+[d frameptr 6 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"14 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"32 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/ext_int.c
+[v _INT_ISR INT_ISR `(v  1 e 1 0 ]
+"41
+[v _INT_CallBack INT_CallBack `(v  1 e 1 0 ]
+"50
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+"54
+[v _INT_DefaultInterruptHandler INT_DefaultInterruptHandler `(v  1 e 1 0 ]
+"59
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+"56 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"59
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"73
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"79
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"61 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"121
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"134
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"138
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"13 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\motor.c
+[v _motor_init motor_init `(v  1 e 1 0 ]
+"43
+[v _hall_handler hall_handler `(v  1 e 1 0 ]
+"48
+[v _signal_handler signal_handler `(v  1 e 1 0 ]
+"60
+[v _speed_handler speed_handler `(v  1 e 1 0 ]
+"78
+[v _motor_handler motor_handler `(v  1 e 1 0 ]
+"131
+[v _step_handler step_handler `(v  1 e 1 0 ]
+[s S230 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"365 C:/Program Files/Microchip_/MPLABX/v5.45/packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18323.h
+[u S235 . 1 `S230 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES235  1 e 1 @11 ]
+[s S338 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+]
+"450
+[u S345 . 1 `S338 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES345  1 e 1 @14 ]
+[s S83 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"498
+[u S88 . 1 `S83 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES88  1 e 1 @16 ]
+"691
+[v _TMR0L TMR0L `VEuc  1 e 1 @21 ]
+"829
+[v _TMR0H TMR0H `VEuc  1 e 1 @22 ]
+"1083
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @23 ]
+[s S120 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"1103
+[s S126 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S131 . 1 `S120 1 . 1 0 `S126 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES131  1 e 1 @23 ]
+"1148
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @24 ]
+"1525
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1570
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S293 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+]
+"1585
+[u S300 . 1 `S293 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES300  1 e 1 @142 ]
+[s S96 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"1633
+[u S101 . 1 `S96 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES101  1 e 1 @144 ]
+"1826
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"2136
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S372 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"2151
+[u S379 . 1 `S372 1 . 1 0 ]
+[v _LATAbits LATAbits `VES379  1 e 1 @268 ]
+"2181
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S355 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+]
+"2196
+[u S362 . 1 `S355 1 . 1 0 ]
+[v _LATCbits LATCbits `VES362  1 e 1 @270 ]
+"2724
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2769
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+[s S310 . 1 `uc 1 ANSC0 1 0 :1:0 
+`uc 1 ANSC1 1 0 :1:1 
+`uc 1 ANSC2 1 0 :1:2 
+`uc 1 ANSC3 1 0 :1:3 
+`uc 1 ANSC4 1 0 :1:4 
+`uc 1 ANSC5 1 0 :1:5 
+]
+"2784
+[u S317 . 1 `S310 1 . 1 0 ]
+[v _ANSELCbits ANSELCbits `VES317  1 e 1 @398 ]
+"3664
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3714
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"5162
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"5207
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"5561
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"5606
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"5656
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"5706
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+"9485
+[v _PMD0 PMD0 `VEuc  1 e 1 @2321 ]
+"9530
+[v _PMD1 PMD1 `VEuc  1 e 1 @2322 ]
+"9569
+[v _PMD2 PMD2 `VEuc  1 e 1 @2323 ]
+"9609
+[v _PMD3 PMD3 `VEuc  1 e 1 @2324 ]
+"9654
+[v _PMD4 PMD4 `VEuc  1 e 1 @2325 ]
+"9682
+[v _PMD5 PMD5 `VEuc  1 e 1 @2326 ]
+"9779
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2329 ]
+"9919
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2331 ]
+"10016
+[v _OSCEN OSCEN `VEuc  1 e 1 @2333 ]
+"10062
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2334 ]
+"10120
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2335 ]
+"10186
+[v _INTPPS INTPPS `VEuc  1 e 1 @3600 ]
+"30 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/ext_int.c
+[v _INT_InterruptHandler INT_InterruptHandler `*.37(v  1 e 2 0 ]
+"53 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/interrupt_manager.c
+[v _timer_flag timer_flag `a  1 e 1 0 ]
+"54
+[v _hall_flag hall_flag `a  1 e 1 0 ]
+"59 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"7 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\motor.c
+[v _motor_dir motor_dir `a  1 e 1 0 ]
+"8
+[v _StepNum StepNum `uc  1 e 1 0 ]
+"9
+[v _speed_stimer speed_stimer `us  1 e 2 0 ]
+[v _speed_high speed_high `us  1 e 2 0 ]
+[v _hall_value hall_value `us  1 e 2 0 ]
+[v _hall_timer hall_timer `us  1 e 2 0 ]
+[v _step_timer step_timer `us  1 e 2 0 ]
+[v _step_counts step_counts `us  1 e 2 0 ]
+[v _speed_value speed_value `us  1 e 2 0 ]
+"14 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"39
+} 0
+"78 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\motor.c
+[v _motor_handler motor_handler `(v  1 e 1 0 ]
+{
+"129
+} 0
+"60
+[v _speed_handler speed_handler `(v  1 e 1 0 ]
+{
+"61
+[v speed_handler@speed_error speed_error `us  1 a 2 8 ]
+"76
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"13 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\motor.c
+[v _motor_init motor_init `(v  1 e 1 0 ]
+{
+"35
+[v motor_init@i_423 i `us  1 a 2 8 ]
+"28
+[v motor_init@i_422 i `us  1 a 2 6 ]
+"23
+[v motor_init@i i `us  1 a 2 4 ]
+"41
+} 0
+"131
+[v _step_handler step_handler `(v  1 e 1 0 ]
+{
+"212
+} 0
+"43
+[v _hall_handler hall_handler `(v  1 e 1 0 ]
+{
+"46
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"50 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"57
+} 0
+"73
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"61 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"134
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"136
+} 0
+"79 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"93
+} 0
+"55 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"107
+} 0
+"59 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"59 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/ext_int.c
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"50
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"52
+} 0
+"56 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"70
+} 0
+"48 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\motor.c
+[v _signal_handler signal_handler `(v  1 e 1 0 ]
+{
+"58
+} 0
+"121 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"131
+} 0
+"138
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"141
+} 0
+"32 C:\Users\carlb\Dropbox\My Projects\S-bot\SW\PIC16F\Sbot_Motor.X\mcc_generated_files/ext_int.c
+[v _INT_ISR INT_ISR `(v  1 e 1 0 ]
+{
+"38
+} 0
+"41
+[v _INT_CallBack INT_CallBack `(v  1 e 1 0 ]
+{
+"48
+} 0
+"54
+[v _INT_DefaultInterruptHandler INT_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"57
+} 0

@@ -1,0 +1,17 @@
+CAMtasticDXP Drill Report
+Serial Number:0000-00-00000
+Drill File: C:\Users\Carl Bugeja\Dropbox\My Projects\S-bot\PCB\MKII\Gerber\cam1.drl
+Format: 2.5
+Units: English (Inch)
+Step & Repeat Codes Used: NO
+
+
+TOOL		SIZE		COUNT
+====		======		=====
+
+ 1 		0.0079		210
+ 2 		0.0118		1127
+ 3 		0.0158		4
+ 5 		0.0787		8
+ 6 		0.0827		1
+ 7 		0.1469		1
